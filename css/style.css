@@ -487,24 +487,28 @@ footer p{
 
     .productSection{
         display: block;
-        
+        width: 65%;
     }
 
     .productBox{
         width: 215px;
-        height: 150px;
+        height: 180px;
        
     }
 
     .productBox img {
-        height: 80px;
+        height: 90px;
+        width: 190px;
     }
 
     .productBox p{
+        margin-top: 10px;
         font-size: 0.7rem;
         letter-spacing: 0.7px;
+        text-align: center;
     }
     .productBox a{
+        margin-top: 7px;
         font-size: 1rem;
         letter-spacing: 0.7px;
     }
@@ -648,6 +652,9 @@ footer p{
     }
 
 /* ----------------------------------------------------- */
+    .productSection{
+        width: 85%;
+    }
 
     .productSection h3{
         font-size: 2rem;
@@ -665,15 +672,20 @@ footer p{
 
     .productBox img {
         height: 110px;
+        width: 130px;
     }
 
     .productBox p{
+        margin-top: 15px;
         font-size: 0.9rem;
         letter-spacing: 0.7px;
+        text-align: center;
     }
     .productBox a{
+        margin-top: 10px;
         font-size: 1rem;
         letter-spacing: 0.7px;
+        text-align: center;
     }
 
     .BuyBtn{
